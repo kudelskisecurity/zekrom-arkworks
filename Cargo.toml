@@ -1,0 +1,46 @@
+[package]
+name = "zekrom_arkworks"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[profiles.test]
+opt-level = 3
+
+[dependencies]
+anyhow = "1.0.65"
+ark-std = "0.3.0"
+ark-serialize = "0.3.0"
+ark-relations = "0.3.0"
+ark-snark = "0.3.0"
+ark-r1cs-std = "0.3.1"
+ark-groth16 = "0.3.0"
+ark-marlin = "0.3.0"
+ark-ec = "0.3.0"
+ark-ff = "0.3"
+ark-poly = "0.3.0"
+ark-poly-commit = "0.3.0"
+ark-bls12-381 = "0.3.0"
+blake2 = { version = "0.9", default-features = false }
+backtrace = "0.3.66"
+primitive-types = "0.12.1"
+rand = "0.8.5"
+
+
+[dev-dependencies]
+criterion = "0.4.0"
+plotters = { version = "0.3.0" }
+
+
+[lib]
+name = "zekrom_arkworks"
+path = "src/lib.rs"
+test = true
+doc = true
+bench = false
+
+
+[[bench]]
+name = "all"
+harness = false

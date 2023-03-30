@@ -1,0 +1,4 @@
+target/
+*.lock
+rescue-prime-arkworks/src/.pasta/
+*.sage.py
