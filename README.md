@@ -3,7 +3,9 @@
 ![zekr0m](https://assets.pokemon.com/assets/cms2/img/pokedex/full/644.png
 )
 
-zekrom is an open-source library of arithmetization-oriented constructions for zkSNARK circuits. The goal of zekrom is to analyze the performance of novel constructions for circuits using modern libraries such as arkworks-rs and halo2.
+zekrom is an open-source library of arithmetization-oriented constructions for zkSNARK circuits.
+It was created as part of the MSc thesis work of Laurent Thoeny at Kudelski Research. 
+The goal of zekrom is to analyze the performance of novel constructions for circuits using modern libraries such as arkworks-rs and halo2.
 
 zekrom for arkworks-rs supports the following constructions for hashing:
 
