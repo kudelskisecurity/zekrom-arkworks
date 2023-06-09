@@ -19,6 +19,8 @@ and the follow constuctions for performing authenticated-encryption:
 - Griffin via [SAFE API](https://hackmd.io/bHgsH6mMStCVibM_wYvb2w?view)
 - Neptune via [SAFE API](https://hackmd.io/bHgsH6mMStCVibM_wYvb2w?view)
 
+zekrom was presented at [Pass the Salt 2023](https://cfp.pass-the-salt.org/pts2023/talk/LQ7RVH/) and appeared at https://research.kudelskisecurity.com/2023/05/30/presenting-zekrom-a-library-of-arithmetization-oriented-constructions-for-zksnark-circuits-part-1-arkworks-rs/
+
 **Caution: zekrom is under heavy development and it has not been audited by a third party.**
 
 # Running the tests
