@@ -21,6 +21,8 @@ and the follow constuctions for performing authenticated-encryption:
 
 zekrom was presented at [Pass the Salt 2023](https://cfp.pass-the-salt.org/pts2023/talk/LQ7RVH/) and appeared at https://research.kudelskisecurity.com/2023/05/30/presenting-zekrom-a-library-of-arithmetization-oriented-constructions-for-zksnark-circuits-part-1-arkworks-rs/
 
+You can download the slides we used at https://cfp.pass-the-salt.org/media/pts2023/submissions/LQ7RVH/resources/PTS2023-Talk-17-zekrom_b2rCSlW.pdf
+
 **Caution: zekrom is under heavy development and it has not been audited by a third party.**
 
 # Running the tests
